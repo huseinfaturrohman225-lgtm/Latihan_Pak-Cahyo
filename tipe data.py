@@ -42,3 +42,27 @@ else:
 #mengetahui bilangan ganjil dan genap
 x= int(input("masukkan x:"))
 print(("bilangan genap", "bilangan ganjil")[((x%2)==1)])
+
+range
+for i in range(3):
+    print(i)
+
+print()
+for i in range(1,3,2):
+    print(i)
+
+print()
+for i in range(5,0,-1):
+    for j in range(0,i+0):
+        print("*",end="")
+    print()
+
+#perulangan while
+suhu = 0
+while suhu < 100:
+    print(suhu)
+    suhu += 40
+
+if suhu>50:
+    print("suhu naik ")
+
